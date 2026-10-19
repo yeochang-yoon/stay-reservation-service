@@ -13,16 +13,17 @@
 - 예약 트랜잭션, JPA 비관적 락을 활용한 동시성 제어
 - 실제 RDBMS 기반 동시 예약 통합 테스트
 
-현재 기능 범위는 [Kickoff 개정안](docs/KICKOFF.md) 검수 중입니다. 결제는 PG 테스트 연동과 실패 재현용 모의 응답 테스트 병행을 추천합니다. 구체적인 정책과 기술 구성은 범위 검수 후 요구사항·설계 단계에서 결정합니다.
+첫 서비스 버전의 범위와 PG 테스트 연동·실패 재현용 모의 응답 테스트 병행은 [Kickoff](docs/KICKOFF.md)에서 승인됐습니다. 구체적인 비즈니스 정책은 [MVP 요구사항](docs/REQUIREMENTS.md)에서 검수 중이며 기술 구성은 설계 단계에서 결정합니다. PG 사업자와 연동 방식은 실제 테스트 환경의 지원 기능·접근 조건을 확인한 뒤 선택합니다.
 
 ## 현재 상태와 문서
 
-개발환경과 Repository / 협업환경 구성을 마쳤으며 Project Kickoff 개정안을 검토하고 있습니다. 기존 축소안은 미채택이며 PR #4는 Merge하지 않습니다. 애플리케이션과 DB는 아직 생성하지 않았습니다.
+개발환경·Repository / 협업환경·Project Kickoff를 마쳤으며 MVP 요구사항을 정의하고 있습니다. PR #4는 승인에 따라 Squash Merge했고 애플리케이션과 DB는 아직 생성하지 않았습니다.
 
 - [작업 지침](AGENTS.md)
 - [전체 개발 절차](docs/DEVELOPMENT_PROCESS.md)
 - [현재 프로젝트 상태와 다음 작업](docs/PROJECT_STATE.md)
-- [Project Kickoff 범위안](docs/KICKOFF.md)
+- [Project Kickoff 확정 범위](docs/KICKOFF.md)
+- [MVP 요구사항과 정책 검수안](docs/REQUIREMENTS.md)
 
 Build / Test / 실행 명령은 Backend 개발 기반 구축 후 실제 검증 결과와 함께 추가합니다.
 
