@@ -15,11 +15,12 @@
 
 ## 현재 상태와 문서
 
-개발환경 확인을 마쳤으며 Repository / 협업환경을 구성하고 있습니다. 애플리케이션과 DB는 아직 생성하지 않았습니다.
+개발환경과 Repository / 협업환경 구성을 마쳤으며 Project Kickoff 범위안을 검토하고 있습니다. 애플리케이션과 DB는 아직 생성하지 않았습니다.
 
 - [작업 지침](AGENTS.md)
 - [전체 개발 절차](docs/DEVELOPMENT_PROCESS.md)
 - [현재 프로젝트 상태와 다음 작업](docs/PROJECT_STATE.md)
+- [Project Kickoff 범위안](docs/KICKOFF.md)
 
 Build / Test / 실행 명령은 Backend 개발 기반 구축 후 실제 검증 결과와 함께 추가합니다.
 
