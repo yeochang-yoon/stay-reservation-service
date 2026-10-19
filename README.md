@@ -34,4 +34,6 @@ Build / Test / 실행 명령은 Backend 개발 기반 구축 후 실제 검증 �
 
 초기 문서와 저장소 기반은 최초 Commit으로 기록하고, 이후 변경부터 Branch / PR 흐름을 적용합니다. 간단한 Issue는 별도 템플릿 없이 목적과 완료 조건을 본문에 작성합니다.
 
+조사·구현·설정·Git·PR 생성·검증은 Codex가 주도하고 사용자는 중요한 결정과 결과를 검수합니다. Merge, 중요한 GitHub 설정 변경, 운영 배포 및 데이터 삭제는 사용자 승인 후 진행합니다. 반복 작업은 자율적으로 처리하되 Test / CI / Review와 Lifecycle 완료 조건을 유지합니다.
+
 DB 비밀번호, Token, API Key 등 Secret은 Commit하지 않습니다. 로컬 값은 Git에서 제외한 파일이나 환경변수로 관리하며, 설정 예제에는 실제 Secret을 넣지 않습니다.
